@@ -1,0 +1,31 @@
+.banner-container {
+}
+
+.banner {
+  height: 60vh;
+  width: 100%;
+  /* background-image: url("/assets/images/homebanner.png"); */
+}
+
+.banner .banner-logo-style {
+  padding-top: 70px;
+}
+
+.banner .super-logo-style {
+  height: 52px;
+  width: 140px;
+  margin-left: 160px;
+}
+
+.banner .grocery-logo-style {
+  height: 80px;
+  width: 340px;
+  margin-left: 140px;
+}
+
+.banner .sale-logo-style {
+  height: 64px;
+  width: 194px;
+  margin-left: 280px;
+  margin-top: 10px;
+}
