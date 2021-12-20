@@ -4,6 +4,7 @@
   --blue: #0662cd;
   --green: #5fa03c;
   --orange: #f28505;
+  --extra-small: 14px;
   --small-text: 14px;
   --medium-text: 18px;
   --large-text: 22px;
@@ -45,4 +46,25 @@ h6 {
 img {
   height: 100%;
   width: 100%;
+}
+
+.shopNow{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 7.92708px 15.8542px;
+
+position: absolute;
+width: 133.09px;
+height: 39.85px;
+left: 302px;
+border: none;
+color: white;
+top: 457px;
+
+background: #F28505;
+box-shadow: 2.11389px 2.11389px 5.28472px rgba(245, 175, 17, 0.26);
+border-radius: 3.17083px;
+
 }

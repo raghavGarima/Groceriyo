@@ -2,7 +2,72 @@ import React from "react";
 import "./banner.css";
 function Banner() {
   return (
-    <div className="banner-container">
+    <>
+      <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src="assets/images/BackgroundGrocery.png" className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src="assets/images/BackgroundGrocery.png" className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src="assets/images/BackgroundGrocery.png" className="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button>
+      </div>
+      <button className="shopNow" style={{ width: "133.09px" }}> Shop Nows</button>
+
+      <div className="container-fluid divForCard">
+      <div className="card" style={{ width:"235px",height:"210px",borderRadius: "11.8906px" }}>
+          <div className="card-body d-flex flex-column justify-content-center align-items-center text-center">
+            <img src="/assets/images/EasyReturn.png" className="ForImage"></img>
+            <h5 className="card-title">Easy Return</h5>
+            <p className="card-subtitle mb-2 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+
+          </div>
+        </div>
+        <div className="card" style={{ width:"235px",height:"210px",borderRadius: "11.8906px" }}>
+          <div className="card-body d-flex flex-column justify-content-center align-items-center text-center">
+            <img src="/assets/images/EasyReturn.png" className="ForImage"></img>
+            <h5 className="card-title">Easy Return</h5>
+            <p className="card-subtitle mb-2 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+
+          </div>
+        </div>
+        <div className="card" style={{ width:"235px",height:"210px",borderRadius: "11.8906px" }}>
+          <div className="card-body d-flex flex-column justify-content-center align-items-center text-center">
+            <img src="/assets/images/EasyReturn.png" className="ForImage"></img>
+            <h5 className="card-title">Easy Return</h5>
+            <p className="card-subtitle mb-2 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+
+          </div>
+        </div>
+        <div className="card" style={{ width:"235px",height:"210px",borderRadius: "11.8906px" }}>
+          <div className="card-body d-flex flex-column justify-content-center align-items-center text-center">
+            <img src="/assets/images/EasyReturn.png" className="ForImage"></img>
+            <h5 className="card-title">Easy Return</h5>
+            <p className="card-subtitle mb-2 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+
+          </div>
+        </div>
+      </div>
+
+    </>
+
+  );
+}
+
+export default Banner;
+{/* <div className="banner-container">
       <div
         className="banner"
         style={{
@@ -34,8 +99,4 @@ function Banner() {
         
    
       </div>
-    </div>
-  );
-}
-
-export default Banner;
+    </div> */}

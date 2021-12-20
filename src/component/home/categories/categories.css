@@ -1,0 +1,59 @@
+.carddiv{
+    height: 18rem !important;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+ .CardImg1{
+    display: flex;
+    height: 9rem;
+    border: 0px solid white;
+    /* width:  147.97px; */
+ }
+
+ .CardImg1 img {
+    height: 100%;
+    width: 100%;
+ }
+ .categoryDes{
+     font-size: 14px;
+     font-weight: 400;
+ }
+
+ /* .CategoriesCard{
+
+} */
+
+/* .CategoriesCard{
+    height: 11rem;
+    background-color:#FFFFFF;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+ } */
+ 
+ /* .CategoriesCardImg{
+    display: flex;
+    height: 147.97px;
+    border: 0px solid white;
+    width:  147.97px;
+   
+ }
+  
+ .CardImg1 img {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid pink;*/ 
+    /* border-radius: 50%; */
+
+ 
+/* .CategoriesCard p{
+   font-size:16px;
+} */

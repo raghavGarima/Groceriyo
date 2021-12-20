@@ -1,10 +1,30 @@
-.banner-container {
+.divForCard{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0% 4%;
+  margin-top: -2% !important;
+}
+
+.ForImage{
+  height: 34px;
+  width: 53px;
+}
+
+.divForCard p{font-size: 12px;}
+
+
+
+
+
+
+/* .banner-container {
 }
 
 .banner {
   height: 64vh;
   width: 100%;
-  /* background-image: url("/assets/images/homebanner.png"); */
+  /* background-image: url("/assets/images/homebanner.png"); 
 }
 
 .banner .banner-logo-style {
@@ -34,11 +54,11 @@
   color: #FFFFFF;
   position: absolute;
   width: 133.09px;
-  /* height: 39.85px; */
+  /* height: 39.85px; 
   left: 301px;
   top: 480px;
   display: flex;
-  /* flex-direction: row; */
+  /* flex-direction: row; 
   justify-content: center;
   align-items: center;
   padding: 7.92708px 15.8542px;
@@ -70,4 +90,4 @@
 .ForImage{
   height: 34px;
   width: 53px;
-}
+} */

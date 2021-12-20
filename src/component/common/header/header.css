@@ -1,4 +1,52 @@
-header {
+.setImageHeightWidth{
+  width: 12rem;
+  height: 4rem
+}
+.navbarDiv{
+  margin-left: 3rem;
+}
+.ForUl{    display: flex;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+  align-items: center;
+}
+
+.ForInputBox{
+  min-width: 54%;
+}
+.searchIcon {
+  color: #fff !important;
+  background-color:#0B773C !important;
+  border:1px solid #0B773C !important;
+  border-radius: 0px 4.22778px 4.22778px 0px !important;
+
+}
+
+.ForInputBox form input{
+  border-radius: 5.28472px 0px 0px 5.28472px;
+  height: 3rem;
+}
+
+.address-text{
+  padding-left: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
@@ -19,7 +67,7 @@ header .logo .logo-name-style {
   width: 142px;
 }
 /* ========================================================== */
-header .address {
+/* header .address {
   display: flex;
   align-items: center;
 }
@@ -39,10 +87,10 @@ header .address .address-text p {
 
 header .address .address-text span {
   font-weight: var(--wieght-text);
-}
+} */
 
 /* ============================================================= */
-header .search-style {
+/* header .search-style {
   display: flex;
   align-items: center;
   position: relative;
@@ -75,9 +123,9 @@ header .search-style {
   border-radius: 0px 5px 5px 0px;
   font-size: 18px;
   padding: 10px 18px;
-}
+} */
 /* ======================================================== */
-.accout-style {
+/* .accout-style {
   display: flex;
   align-items: center;
 }
@@ -92,10 +140,10 @@ header .search-style {
 .accout-style .user-account-style i {
   margin-right: 10px;
   font-size: 24px;
-}
+} */
 /* ============================================= */
 
-.bucket-style {
+/* .bucket-style {
   display: flex;
   align-items: center;
 }
@@ -110,4 +158,4 @@ header .search-style {
 .bucket-style .user-bucket-style i {
   margin-right: 10px;
   font-size: 24px;
-}
+}  */

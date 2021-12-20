@@ -1,3 +1,40 @@
+/* .Card{
+    height: 11rem;
+    background-color:#FFFFFF;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+ }
+ 
+ .CardImg{
+    display: flex;
+    height: 147.97px;
+    border: 0px solid white;
+    width:  147.97px;
+   
+ }
+ 
+ .CardImg img {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid pink;
+    border-radius: 50%;
+ }
+ 
+ .Card p{
+    font-size:16px;
+ } */
+
+
+
+
+
+
+
+/* 
 .MainDivOfToday{
    
     padding: 0px 55px 30px 55px;;
@@ -23,16 +60,18 @@
     width: 2rem;
     align-items: center;
     display: flex;
- }
+ } */
  .CardToday{
-    height: 14rem;
+    width: 80% !important;
+    height: 248px;
+    /* display: flex !important;
+    justify-content: space-between; */
     background-color:#FFFFFF;
-    width: 12rem;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     margin-top: 1rem;
+    /* text-align: center; */
+
  }
 
  .CardImgToday{
@@ -40,26 +79,28 @@
     height: 147.97px;
     border: 0px solid white;
     width:  147.97px;
-   
  }
 
 .CardImgToday img {
     height: 100%;
     width: 100%;
-    /* border: 2px solid pink; */
+    /* border: 2px solid pink;*/ 
     /* border-radius: 50%; */
  }
 
  .CardToday p{
     /* text-align: center; */
-    font-size: 14px;
-    font-weight: 100;
+    font-size:14px;
+    font-weight: 300;
     /* justify-content: center; */
     /* align-items: center; */
       /* display: flex; */
   
  }
-
+ .ForSlider1 .slick-list{
+    margin-left: 2rem;
+    
+    }
  .PriceAndAdd{
     display: flex;
     justify-content: space-between;
@@ -69,6 +110,11 @@
 
  .OnlyForPriceDiv{    display: flex;
     flex-direction: column;
+   
+}
+.CurrentPrice{
+    font-size:14px !important;
+    font-weight: 600 !important;
 }
 
 .AddButton{    width: 64px;
@@ -86,5 +132,5 @@
 
 .PreviousPrice{
     text-decoration-line: line-through; 
-   
+    /* font-weight: 400 !important; */
 }
